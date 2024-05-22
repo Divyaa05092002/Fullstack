@@ -45,19 +45,42 @@ Atilde A: &Atilde; <br>
 
 scheme://preifx.domain:port//path//filename
 
+<hr>
 <h2>Signup Form</h2>
 
-    <form action="" method="get">
+    <form action="./Page.html" method="get">
+        <!-- By using GET method all the values are displayed in URL
+        but using POST method values are not displayed in URL -->
         <label for="FirstName">FirstName:</label>
         <input type="text" id="fname" name="fname">
-
+        
+        <br>
         <label for="Lastname">Lastname:</label>
         <input type="text" id="lname" name="lname">
-
+         
+        <br>
         <label for="Age">Age:</label>
         <input type="number" name="age" id="age">
-        <button onclick="" type="button">submit</button>
         
+        <br>
+        <label for="telephone">tel no</label>
+        <input type="number" id="telephone" name="telephone">
+         
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="paasword" required>
+        
+        <br>
+        <label for="confirm password">confirm Password</label>
+        <input type="password" name="confirmpassword" id="confirmpassword" required>
+        <br>
+
+        <button onclick="" type="button">submit</button>
+
         <hr>
         <label for="Radio">Option 1</label>
         <input type="radio" name="radio" id="radio">
@@ -81,9 +104,20 @@ scheme://preifx.domain:port//path//filename
 
         <label for="CheckBox">Choice 3</label>
         <input type="checkbox" name="opt3" id="opt3">
+        <br>
 
+        <hr>
+        <label for="cars">Choose Dogs:</label>
+        <select name="Dogs" id="Dogs" multiple="2">
+            <option value="Black">Pomerian</option>
+            <option value="Gold">Golden retriever</option>
+            <option value="cream">labrador</option>
+            <option value="white">Dalmation</option>
+        </select>
 
+        <textarea name="Feedback" id="Feedback" cols="20" rows="10"></textarea>
+        <input type="submit" value="submit">
+        
     </form>
-</body>
-</body>
+ </body>
 </html>
