@@ -1,0 +1,36 @@
+
+
+.h1{
+    border: 2px solid black;
+    display: flex;
+}
+
+.div_tag{
+    border: 2px solid red;
+    display: block;
+}
+
+.header{
+    border: 2px solid blue;
+    display: block;
+}
+
+.footer{
+    border: 2px solid olive;
+    display: inline-flex;
+}
+
+.section{
+    border: 2px solid brown;
+    display: grid;
+}
+
+.span{
+    border: 2px solid green;
+    display: flex;
+}
+
+.a_tag{
+    border: 2px solid yellow;
+    display: inline-block;
+}
